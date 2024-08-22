@@ -1,0 +1,134 @@
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #f4f4f4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+div {
+  text-align: left;
+}
+
+
+ textarea {
+  align: Center;
+  float: left;
+  width: 350px;
+  height: 150px;
+}
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  nav {
+    background-color: #666;
+    padding: 10px;
+    text-align: center;
+  }
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+  }
+  nav a:hover {
+    text-decoration: underline;
+  }
+  section {
+    padding: 20px;
+    text-align: center;
+  }
+
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  .submit-button {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: fit-content;
+    border-radius: 5px;
+  }
+  .submit-button:hover {
+    background-color: #45a049;
+  }
+  
+  .form-container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center; /* Center everything inside the container, including the h1 */
+  }
+
+  .form-group {
+    margin-bottom: 15px;
+  }
+
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+
+  .form-group input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box; /* Makes sure the padding doesn't affect the final computed width */
+  }
+
+  .button-group {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .submit-btn,
+  .reset-btn {
+    cursor: pointer;
+    border: none;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+
+  .submit-btn {
+    background-color: #4caf50;
+  }
+
+  .reset-btn {
+    background-color: #f44336;
+  }
+
+  .submit-btn:hover {
+    background-color: #45a049;
+  }
+
+  .reset-btn:hover {
+    background-color: #d32f2f;
+  }
+  h1 {
+    color: #333; /* Example color, feel free to change */
+    font-weight: bold;
+    margin-bottom: 20px; /* Adds some space between the title and the form */
+  }
+  h2 {
+    color:white; 
+    font-weight: bold;
+    margin-bottom: 20px; 
+  }
